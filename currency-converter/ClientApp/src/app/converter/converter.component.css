@@ -1,0 +1,46 @@
+.converter-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f6f8;
+  text-align: center;
+  margin-top: 100px;
+}
+
+  .converter-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+.input-group,
+.output-group {
+  margin-bottom: 20px;
+}
+
+  .input-group input[type="number"],
+  .output-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e8f1f4;
+    border: none;
+    border-radius: 5px;
+    color: #555;
+  }
+
+  .input-group select,
+  .output-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e8f1f4;
+    border: none;
+    border-radius: 5px;
+    color: #555;
+  }
+
+  .output-group input[type="number"]:disabled {
+    background-color: #e8f1f4;
+    cursor: not-allowed;
+  }
